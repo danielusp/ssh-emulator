@@ -22,7 +22,7 @@ Generates the public and private access keys
 
 User's password: *1234*
 
-*Obs: Every time you run the container a new key needed to be generated*
+*Obs: Every time you run the container a new key needs to be generated*
 
 ```bash
 make sshkeygen
@@ -60,12 +60,6 @@ Send two files to server
 
 ```bash
 make scp
-```
-
-Reset server
-
-```bash
-make reset
 ```
 
 Stop container (down all the services)
